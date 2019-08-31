@@ -3,7 +3,7 @@ from django.contrib import admin
 from django.conf import settings
 from django.urls import include, path
 from django.conf.urls.static import static
-from django.conf import settings
+from decouple import config
 
 urlpatterns = [
     path('', include('mypage.urls', namespace='mypage')),
@@ -12,7 +12,8 @@ urlpatterns = [
 ]
 
 # ##########################Media/Static
-if settings.DEBUG:
+USE_S3 = config('USE_S3', default=False, cast=bool)
+if settings.DEBUG and not USE_S3:
     urlpatterns += static(
         settings.MEDIA_URL, document_root=settings.MEDIA_ROOT
     )
