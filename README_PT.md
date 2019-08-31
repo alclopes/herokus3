@@ -66,7 +66,7 @@ Conheça a aplicação já com o Celery no [Heroku](https://herokus3task.herokuapp.c
 ##### 3. Gestão de arquivos média 
 => Situação: Feito/Sucesso (mais detalhes abaixo)
 
-#### Detalhes da Situação do Projeto
+## Detalhes da Situação do Projeto
 
 ##### 1. Arquivos estáticos - Situação: OK
 * Envolveu: Files/Images e CSS

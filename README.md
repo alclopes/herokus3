@@ -66,7 +66,7 @@ Check out the app already with Celery at [Heroku] (https://herokus3task.herokuap
 ##### 3. Medium File Management
 => Status: Done / Success (more details below)
 
-#### Project Status Details
+## Project Status Details
 
 ##### 1. Static Files - Situation: OK
 * Involved: Files / Images and CSS
